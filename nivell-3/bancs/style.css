@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif, Arial;
+    background: url('./assets/bg.jpg');
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+button {
+    cursor: pointer;
+    padding: 4px;
+    border: 1px solid #00000096;
+    background: #2196f3a8;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+button:hover {
+    background: #106cb8a8 !important;
+}
+
+input:focus-visible {
+    outline-color: #9898988f;
+    -webkit-box-shadow: 0 0 10px #000;
+            box-shadow: 0 0 10px #000;
+}
+
+.card-container {
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0 0 10px #000;
+            box-shadow: 0 0 10px #000;
+}
+
+.b-text {
+    color: green;
+    font-style: italic;
+}
+
+.n-text {
+    color: grey;
+}
+
+.e-text {
+    color: crimson;
+    font-weight: bold;
+}
